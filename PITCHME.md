@@ -50,10 +50,14 @@ Note:
 Note:
 - Many examples of the big rewrite failing
 - I loathe to throw out working code
+- The 17 year old article by Joel Spolsky, Netscape, Borland dbase, etc.
+- If you search they are mainly portents of warning
+- Also people only seem to rewrite the easy part
 ---
 ## DO REWRITE
 Note:
 - All the evidence pointed at it being necessary
+![Dilbert](assets/dilbert_rewrite.jpg)
 ---
 ## Stage #1
 - Split out the marketing website
@@ -91,10 +95,11 @@ Note:
 ## Backend
 - Can't enumerate
 - Use Django user model
+- Passwords needed converting
 - Better HTML emails
 - 1000s of lines into dozens
 Note:
-- I did a version which ran teh original frontend on top of Python. Kind of worked but kept getting API "surprises"
+- I did a version which ran the original frontend on top of Python. Kind of worked but kept getting API "surprises"
 - During development there was the huge vulnerability found in the PHP mail package
 ---
 ## Frontend
@@ -105,6 +110,7 @@ Note:
 - Was going to evolve the frontend we had
 - Ended up having to rewrite all APIs
 - More time wasted on WebPack
+- Need JWT :(
 ---
 ## Deployment
 - Built very early on
@@ -138,3 +144,4 @@ Note:
 - In future we can move database forward using migrations
 - Improve the dynamic-ness of the UI
 - Start tidying up the API surface area
+- Good security A- grade [Observatory results yag.ro](https://observatory.mozilla.org/analyze.html?host=yag.ro)
