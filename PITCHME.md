@@ -55,9 +55,9 @@ Note:
 - Also people only seem to rewrite the easy part
 ---
 ## DO REWRITE
+![Dilbert](assets/dilbert_rewrite.gif)
 Note:
 - All the evidence pointed at it being necessary
-![Dilbert](assets/dilbert_rewrite.jpg)
 ---
 ## Stage #1
 - Split out the marketing website
