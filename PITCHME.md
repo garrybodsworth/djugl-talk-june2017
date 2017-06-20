@@ -136,6 +136,7 @@ Note:
 - Could have shipped earlier but waited for better quality
 ---
 ## Success?
+![Tablecloth](assets/mat_ricardo_tablecloth_trick.gif)
 - Nobody noticed
 - Implementing bug for bug
 Note:
@@ -145,3 +146,4 @@ Note:
 - Improve the dynamic-ness of the UI
 - Start tidying up the API surface area
 - Good security A- grade [Observatory results yag.ro](https://observatory.mozilla.org/analyze.html?host=yag.ro)
+- https://www.youtube.com/watch?v=o94Pm-Cty3M
